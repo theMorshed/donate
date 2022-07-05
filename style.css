@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.button{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 20px 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 30px;
+}
+.bannerSection{
+    text-align: center;
+    color: #ffffff;
+    background-image: url(images/banner.jpg);
+    padding: 200px 20%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+.bannerSection h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.bannerSection p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.amountSection{
+    text-align: center;
+    padding: 150px 0;
+}
+.amountSection h2{
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+.amountSection p{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amount p{
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 45px 20px;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    margin-right: 20px;
+}
+.amount .amountColor{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.amountSection input{
+    color: #B3B3B3;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border: none;
+    border-bottom: 0.5px solid #B3B3B3;
+    margin: 25px 0 0;
+    padding-bottom: 10px;
+}
+.amountSection input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 0.5px solid #B3B3B3;
+}
