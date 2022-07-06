@@ -93,15 +93,15 @@ body{
 }
 
 /* donatePlanSection style */
-#donatePlanSection{
+.donatePlanSection{
     text-align: center;
 }
-#donatePlanSection h2{
+.donatePlanSection h2{
     color: #121212;
     font-size: 45px;
     font-weight: 700;
 }
-#donatePlanSection p{
+.donatePlanSection p{
     color: #707070;
     font-size: 18px;
     font-weight: 400;
