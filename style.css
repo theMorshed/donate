@@ -135,6 +135,62 @@ body{
 .singlePlan:last-child{
     background-color: #FFF4D6;
 }
+.latestProjectSection{
+    text-align: center;
+    padding-top: 120px;
+}
+.latestProjectSection h2{
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+.latestProjectSection p{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.projectContainer {
+    display: flex;
+    margin: 10px 50px;
+    text-align: left;
+}
+.singleProject{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 5px 5px 40px #f6e3e3;
+    padding: 20px;
+    margin-right: 20px;
+}
+.singleProject:last-child{
+    margin: 0;
+}
+.singleProject img{
+    width: 400px;
+    height: 300px;
+}
+.singleProject span{
+    background-color: #FF5959;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 10px 0;
+    display: inline-block;
+}
+.singleProject h3{
+    color: #121212;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.singleProject p{
+    color: #FF5959;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
 .getUpdateSection{
     text-align: center;
     padding: 100px 0;
