@@ -1,3 +1,4 @@
+/* general style */
 *{
     margin: 0;
 }
@@ -15,6 +16,8 @@ body{
     display: inline-block;
     margin-top: 30px;
 }
+
+/* bannerSection style */
 .bannerSection{
     text-align: center;
     color: #ffffff;
@@ -33,6 +36,8 @@ body{
     font-weight: 400;
     margin-top: 30px;
 }
+
+/* amountSection style */
 .amountSection{
     text-align: center;
     padding: 150px 0;
@@ -62,7 +67,7 @@ body{
     background-color: #FAFAFA;
     margin-right: 20px;
 }
-.amount .amountColor{
+#amountColor{
     color: #FF5959;
     background-color: #FFEEEE;
     border: 2px solid #FF5959;
@@ -87,6 +92,7 @@ body{
     border-bottom: 0.5px solid #B3B3B3;
 }
 
+/* donatePlanSection style */
 .donatePlanSection{
     text-align: center;
 }
@@ -108,8 +114,9 @@ body{
 .singlePlan{
     border-radius: 5px;
     text-align: left;
-    padding: 60px 20px 30px;
+    padding: 80px 20px 50px;
     margin-right: 20px;
+    width: 33.33333%;
 }
 .singlePlan img{
     width: 55px;
@@ -126,15 +133,17 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-.singlePlan:first-child{
+#firstPlan{
     background-color: #d8f3f6;
 }
-.singlePlan:nth-child(2){
+#secondPlan{
     background-color: #f6e3e3;
 }
-.singlePlan:last-child{
+#thirdPlan{
     background-color: #FFF4D6;
 }
+
+/* latestProjectSection style */
 .latestProjectSection{
     text-align: center;
     padding-top: 120px;
@@ -163,12 +172,12 @@ body{
     width: 33.3333%;
     border: 1px solid #FF5959;
 }
-.singleProject:last-child{
+#lastProject{
     margin: 0;
 }
 .singleProject img{
     width: 100%;
-    height: 330px;
+    height: 280px;
     display: block;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -195,6 +204,8 @@ body{
     font-weight: 400;
     margin: 10px 0;
 }
+
+/* getUpdateSection style */
 .getUpdateSection{
     text-align: center;
     padding: 100px 0;
@@ -217,7 +228,7 @@ body{
     background-color: #FFF4D6;
     padding: 70px 0;
 }
-.subscribeField{
+#subscribeField{
     padding: 11px 0;
     width: 250px;
     border: none;
@@ -229,11 +240,11 @@ body{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-.subscribeField:focus{
+#subscribeField:focus{
     outline: none;
     border: none;
 }
-.subscribeBtn{
+#subscribeBtn{
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
@@ -245,6 +256,8 @@ body{
     display: inline-block;
     border: none;
 }
+
+/* footer style */
 footer{
     background-color: #0B0D17;
     padding: 60px 0;
