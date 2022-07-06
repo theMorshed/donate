@@ -86,3 +86,119 @@ body{
     border: none;
     border-bottom: 0.5px solid #B3B3B3;
 }
+
+.donatePlanSection{
+    text-align: center;
+}
+.donatePlanSection h2{
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+.donatePlanSection p{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.planContainer {
+    display: flex;
+    padding: 10px 8%;
+}
+.singlePlan{
+    border-radius: 5px;
+    text-align: left;
+    padding: 60px 20px 30px;
+    margin-right: 20px;
+}
+.singlePlan img{
+    width: 55px;
+    height: 55px;
+}
+.singlePlan h3{
+    color: #121212;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.singlePlan p{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+}
+.singlePlan:first-child{
+    background-color: #d8f3f6;
+}
+.singlePlan:nth-child(2){
+    background-color: #f6e3e3;
+}
+.singlePlan:last-child{
+    background-color: #FFF4D6;
+}
+.getUpdateSection{
+    text-align: center;
+    padding: 100px 0;
+}
+.getUpdateSection h2{
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+.getUpdateSection p{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.getUpdateSection form{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    background-color: #FFF4D6;
+    padding: 70px 0;
+}
+.subscribeField{
+    padding: 11px 0;
+    width: 250px;
+    border: none;
+    height: 18px;
+    padding-left: 20px;
+    position: relative;
+    right: -4px;
+    top: -3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.subscribeField:focus{
+    outline: none;
+    border: none;
+}
+.subscribeBtn{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 8px 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    border: none;
+}
+footer{
+    background-color: #0B0D17;
+    padding: 60px 0;
+    text-align: center;
+}
+footer h3{
+    font-family: 'Courgette', cursive;
+    color: #FF5959;
+    font-size: 36px;
+    font-weight: 400;
+}
+footer p{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+}
